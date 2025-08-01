@@ -1,13 +1,82 @@
+.color-body {
+  background-color: #f8f8f8;
+  height: 100vh;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Almarai", sans-serif;
+}
+.title {
+  color: #224f61;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 64px;
+}
+.underline {
+  height: 1px;
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid #b45b35;
+}
+.btn {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn:hover {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 24px;
+  border-radius: 11px;
+  border: none;
+  /* background-color: #b45b35; */
+}
+.img-item {
+  height: 180px;
+  border-radius: 5px;
+}
+.item-description {
+  color: #8c8c8c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+.item-title {
+  color: #555555;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+.card-color {
+  background-color: #f8f8f8;
+}
+.item-price {
+  color: #b45b35;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+.btn-search {
+  color: #b45b35;
+  background-color: white;
+  border: 1.5px solid #b45b35;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+.btn-search:hover {
+  color: white;
+  border: 1.5px solid white;
+  background-color: #b45b35;
+  border-radius: 8px;
+}
+.brand-color {
+  color: #b45b35;
 }

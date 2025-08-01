@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Card, Col } from "react-bootstrap";
-import Zoom from "react-reveal/Zoom";
+import { Zoom } from "react-awesome-reveal";
 
 const ItemsList = ({ itemsData }) => {
   return (
